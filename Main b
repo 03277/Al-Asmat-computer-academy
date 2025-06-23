@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al Asmat Computer Academy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    header.hero {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 3em 1em;
+    }
+
+    header.hero h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header.hero p {
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+    }
+
+    .btn {
+      background-color: #fff;
+      color: #007BFF;
+      padding: 0.7em 1.5em;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #e2e6ea;
+    }
+
+    nav {
+      background: #333;
+      text-align: center;
+      padding: 0.5em 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 2em 1em;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #007BFF;
+      border-bottom: 2px solid #007BFF;
+      padding-bottom: 0.3em;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #e9ecef;
+      margin: 0.5em 0;
+      padding: 0.8em;
+      border-radius: 4px;
+    }
+
+    blockquote {
+      font-style: italic;
+      background: #f1f1f1;
+      border-left: 5px solid #007BFF;
+      padding: 1em;
+      margin: 1em 0;
+    }
+
+    form {
+      background: #fff;
+      padding: 1.5em;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 0.8em;
+      margin-bottom: 1em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      margin-top: 2em;
+    }
+
+    @media (max-width: 600px) {
+      header.hero h1 {
+        font-size: 1.8em;
+      }
+
+      .btn {
+        display: block;
+        width: 100%;
+        padding: 1em;
+      }
+
+      nav a {
+        display: block;
+        margin: 0.5em 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header class="hero">
+    <h1>Al Asmat Computer Academy</h1>
+    <p>Empowering the Next Generation of Tech Leaders</p>
+    <a href="#courses" class="btn">Explore Courses</a>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Al Asmat Computer Academy is committed to providing high-quality, hands-on computer education. From basic computing to advanced software development, we equip students with the skills needed to succeed in the digital world.</p>
+  </section>
+
+  <section id="courses">
+    <h2>Our Courses</h2>
+    <ul>
+      <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React, Wordpress</li>
+      <li><strong>Python Programming:</strong> Basics to Intermediate</li>
+      <li><strong>MS Office Suite:</strong> Word, Excel, Access, PowerPoint, Publisher etc.</li>
+      <li><strong>Graphic Design:</strong> Coral Draw, Photoshop, Illustrator</li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Students Say</h2>
+    <blockquote>"<b><u>Al Asmat Computer Academy</u></b> gave me the confidence to become a web developer!" – Waheed Ullah.</blockquote>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="email" placeholder="Email Address" required><br>
+      <textarea placeholder="Your Message" required></textarea><br>
+      <button type="submit">Send Message</button><br>
+    </form>
+    <p>Email: kabulWaris27@gmail.com | Phone: +92 3171865313</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Al Asmat Computer Academy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
